@@ -1,0 +1,91 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+ }
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://thumbs.dreamstime.com/b/red-sparkle-wallpaper-valentines-day-christmas-dark-abstract-glitter-background-greeting-wedding-invitation-card-136899728.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.continer{
+    display:flex;
+    height:750px;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:450px;
+    height: 600px;
+}
+.card .card-bg{
+    position:absolute;
+}
+.card .card-bg img{
+    z-index:1;
+    width: 100%;
+     border-radius: 10px; 
+}
+.card .title{
+  z-index:2;
+  position: absolute;
+ 
+  text-align: center;
+ line-height: 40px;
+  transition:all o.3s ease-out;
+;
+
+
+}
+.card .title h2{
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.card .title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 2px;
+}
+.card .title h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+
+}
+.card.images{
+    z-index: 2;
+}
+.card .images .tree{
+    z-index: 2;
+    position:relative;
+    width:200px;
+    margin: auto;
+    padding-bottom: 300px;
+    padding-right: 0px;
+    padding-left: 2px;
+    
+    
+}
+.card .images .santa{
+    z-index: 2;
+    position:relative;
+    width:200px;
+    margin: auto;
+    padding-top:100px;
+    
+}

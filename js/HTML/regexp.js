@@ -1,0 +1,25 @@
+let str="sushmitha Maddili kiran Sush 123 011023456789 44444 rrrr & * @";
+// // console.log(str.match(/pattern/modifier));
+console.log(str.match(/SUSH/i));
+console.log(str.match(/[sush]/gi));
+console.log(str.match(/[A-Z]/g));
+console.log(str.match(/[A-z]/g));
+console.log(str.match(/[a-e]/g));
+console.log(str.match(/[0-9]/g));
+console.log(str.match(/[^0-9]/g));
+console.log(str.match(/[^a-e^123]/g));
+console.log(str.match(/\s/g));
+console.log(str.match(/\S/g).length+1);
+console.log(str.match(/ushmi|sush|Maddili/g));
+console.log(str.match(/s.......a/gi));
+console.log(str.match(/\w/g)); //\w means a-z A-Z 0-9 _
+console.log(str.match(/\W/g));
+console.log(str.match(/\bs/gi));
+console.log(str.match(/\Ba/g));
+console.log(str.match(/a\b/));
+console.log(str.match(/a\B/));
+console.log(str.match(/i+/g));
+console.log(str.match(/\d+/g));
+console.log(str.match(/d*/g));
+console.log(str.match(/il?/g));
+console.log(str.match(/ham$/gi));
